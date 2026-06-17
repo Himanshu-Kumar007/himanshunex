@@ -8,6 +8,9 @@ const details = new mongoose.Schema({
         required: true,
         trim: true
     },
+    himanshu:{
+        type:String,
+    },
     mobile:{
         type: String,
         required:true,
