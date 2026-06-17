@@ -21,7 +21,10 @@ app.use(cookieParser());
 database();
 
 
-app.use(cors());
+app.use(cors({
+    origin: "https://agent-6a324adb478f2acd--cheerful-cascaron-3740c0.netlify.app",
+    credentials: true
+}));
 
 
 app.use(express.json())
