@@ -22,7 +22,7 @@ database();
 
 
 app.use(cors({
-    origin: "https://agent-6a324adb478f2acd--cheerful-cascaron-3740c0.netlify.app",
+    origin: "https://agent-6a3387074ea9220e--cheerful-cascaron-3740c0.netlify.app",
     credentials: true
 }));
 

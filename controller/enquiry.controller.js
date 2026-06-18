@@ -42,9 +42,12 @@ export const get_enquiry = async (req, res) => {
     try {
 
         const data = await Enquiry.find({})
+
+
         res.status(200).json({
             successs: true,
-            data
+            data,
+            length: data.length
         });
 
     } catch (error) {
